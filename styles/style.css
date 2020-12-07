@@ -236,7 +236,7 @@ nav:nth-of-type(2){
 	padding-top: 5px;
 	border-top: 1px solid rgba(0,0,0,0.3);
 }
-article{
+.main_rect article{
 	height: 140px;
 	display: grid;
 	grid-template-rows: 1fr;
@@ -273,7 +273,7 @@ article{
 }
 .texte{
 	padding-top: 4px;
-	font-size: 0.9em;
+	font-size: 1.1em;
 	grid-area: texte;
 	color: #4B5D68;
 	overflow:auto;
@@ -472,7 +472,7 @@ footer .lgr{
 		margin: 20px;
 
 	}
-	article{
+	.main_rect article{
 		display: block;
 	}
 	.Photo{
@@ -658,7 +658,7 @@ footer .lgr{
 		align-self: flex-start;
 	}
 		
-	article{
+	.main_rect article{
 		margin-top: -20px;
 		display: block;
 	}
