@@ -1,0 +1,53 @@
+.bordure_droite:first-of-type
+{
+	background-color: skyblue;
+}
+.bordure_droite{
+	border: none;
+}
+.actualities_main_section > div:first-of-type
+{
+	margin: auto;
+	margin-top: 50px;
+	width: 66%;
+	display: flex;
+	justify-content: space-between;
+}
+.big_block
+{
+	border:1px solid black;
+	width: 75%;
+	padding: 10px;
+}
+.big_title{
+	color: #104591;
+	line-height: 50px;
+	border-bottom:2px dashed skyblue;
+}
+h5
+{
+	color: #004B7A;
+	margin-left: 50px;
+	line-height: 30px;
+}
+.top ul 
+{
+	padding: 20px;
+	background-color: #E0EEFC;
+	display: flex;
+	flex-flow: wrap;
+	margin-top: 10px;
+	border:2px dashed green;
+}
+.top ul li {
+	width: 50%;
+}
+.big_block article
+{
+	display: flex;
+	flex-direction: column;
+}
+.little_block{
+	border:1px solid red;
+	width: 20%;
+}
