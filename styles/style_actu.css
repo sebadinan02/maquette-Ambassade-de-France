@@ -77,7 +77,7 @@
 	font-size: 0.8em;
 	color: #104591;
 }
-.top_links a:hover,.discours > a:hover,.events > a:hover, .security > a:hover,.links_actu a:hover,h5 a:hover{
+.top ul li a:hover,.top_links a:hover,.discours > a:hover,.events > a:hover, .security > a:hover,.links_actu a:hover,h5 a:hover{
 	text-decoration: underline;
 }
 .discours,.events, .security
@@ -173,9 +173,11 @@ article > a
 {
 	width: 100%;
 }
-footer
-{
-	width: 1100px;
+#prop_for_actualities{
+
+	justify-content: space-around;
+	width: 80%;
+	font-size: 1.2em;
 }
 @media screen and (max-width: 768px) {
 
@@ -214,6 +216,9 @@ footer
 		width: 50%;
 		margin-top: 20px;
 		margin-bottom: -150px;
+	}
+	footer{
+		margin-top: 0;
 	}
 }
 @media screen and (min-width:1500px)  {
