@@ -20,6 +20,7 @@ body > div:last-of-type{
 body > div:last-of-type > div{
 	justify-content: center;
 	background-color: #323136;
+	margin-top: 50px;
 }
 /*-------Most of my flex containers----------*/
 body > div:last-of-type > div,header,.container-header-items,.ul_menu_container,footer div > ul,.ul_menu_container > div,.slide_container,.actualities,.main_container_section section:last-of-type,footer{
