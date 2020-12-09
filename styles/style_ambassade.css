@@ -18,6 +18,12 @@
 	display: flex;
 	justify-content: space-between;
 }
+.indic{
+	position: absolute; 
+	font-size: 0.7em; 
+	color: blue; 
+	top: 270px;
+}
 .big_block
 {
 	border-left: 1px solid #dcdcdc;
@@ -79,7 +85,8 @@
 	font-size: 0.8em;
 	color: #4B5D68;
 }
-.top ul li a:hover,.discours > a:hover,.events > a:hover,.links_actu a:hover,h5 a:hover{
+}
+.indic a:hover,.top ul li a:hover,.discours > a:hover,.events > a:hover,.links_actu a:hover,h5 a:hover{
 	text-decoration: underline;
 }
 .discours,.events, .security
@@ -176,6 +183,7 @@ article > a
 {
 	width: 100%;
 }
+
 @media screen and (max-width: 768px) {
 
 	nav:nth-of-type(2){

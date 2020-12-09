@@ -1,4 +1,4 @@
-.bordure_droite:nth-of-type(4)
+.bordure_droite:nth-of-type(5)
 {
 	background-color: skyblue;
 }
@@ -16,6 +16,12 @@
 	width: 75%;
 	display: flex;
 	justify-content: space-between;
+}
+.indic{
+	position: absolute; 
+	font-size: 0.7em; 
+	color: blue; 
+	top: 270px;
 }
 .big_block
 {
@@ -44,8 +50,9 @@ article > a{
 	line-height: 22px;
 	font-size: 0.8em;
 	color: #4B5D68;
+
 }
-h5 a:hover,article a:hover{
+.indic a:hover,h5 a:hover,article a:hover{
 	text-decoration: underline;
 }
 .discours,.events

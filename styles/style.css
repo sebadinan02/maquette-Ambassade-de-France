@@ -366,6 +366,8 @@ footer div > ul{
 }
 footer li{
 	height:30px;
+	list-style: inside;
+	list-style-image: url(../images/li_wh.png);
 }
 footer .decaler{
 	margin-left: 20px;
@@ -376,7 +378,6 @@ footer a{
 footer .lgr{
 	width: 98px;
 }
-
 /*-------Media query for medium devices----------*/
 @media screen and (min-width:768px ) and (max-width: 1025px) 
 {
@@ -548,6 +549,7 @@ footer .lgr{
 	footer li{
 		height:auto;
 		margin-top: 10px;
+		list-style-image: none;
 	}
 	footer .decaler{
 		margin:auto;
@@ -717,6 +719,7 @@ footer .lgr{
 	footer li{
 		height:auto;
 		margin-top: 10px;
+		list-style-image: none;
 	}
 	footer .decaler{
 		margin:auto;
