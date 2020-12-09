@@ -114,8 +114,14 @@ nav:nth-of-type(2){
 	padding: 5px;
 	border-top: 2px solid white;
 }
+.bordure_droite:hover{
+	width: 111.92px;
+	margin-right: 0;
+}
 .bordure_droite:hover #sub_menu,.espace:hover #sub_menu{
-	display: block;
+
+	display: flex;
+	flex-direction: column;
 	position: relative;
 	top: -7px;
 }
