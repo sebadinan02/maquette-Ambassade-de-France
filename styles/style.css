@@ -86,9 +86,11 @@ nav:nth-of-type(2){
 
 .bordure_droite{
 	border-right: 2px solid red;
+	position: relative;
 	
 }
 .ul_menu_container > div{
+	position: relative;
 	margin-top: 10px;
 	text-align: center;
 	padding-left: 23px;
@@ -97,9 +99,12 @@ nav:nth-of-type(2){
 	font-weight: bold;
 	margin-bottom: 10px;
 	flex-direction: column;
+
+	
 }
 /*-------nav bar animation----------*/
 #sub_menu{
+	position: absolute;
 	text-align: center;
 	width: 200px;
 	margin-top: 13px;
@@ -114,16 +119,13 @@ nav:nth-of-type(2){
 	padding: 5px;
 	border-top: 2px solid white;
 }
-.bordure_droite:hover{
-	width: 111.92px;
-	margin-right: 0;
-}
 .bordure_droite:hover #sub_menu,.espace:hover #sub_menu{
 
 	display: flex;
+	transition-delay: 20s;
 	flex-direction: column;
-	position: relative;
-	top: -7px;
+	left: 10px;
+	top:30px;
 }
 #sub_menu div:hover,#sub_menu div:hover a{
 	color: white;
