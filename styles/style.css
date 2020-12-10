@@ -126,6 +126,7 @@ nav:nth-of-type(2){
 	flex-direction: column;
 	left: 10px;
 	top:30px;
+	transition: all 5s;
 }
 #sub_menu div:hover,#sub_menu div:hover a{
 	color: white;
@@ -337,7 +338,9 @@ nav:nth-of-type(2){
 	text-decoration: underline;
 }
 .actu{
-	margin-left: 50px;
+	margin-left: 111px;
+    margin-top: 26px;
+    display: block;
 }
 .actus p ul li {
 	list-style: url(../images/li.png) inside;
